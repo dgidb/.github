@@ -1,26 +1,11 @@
-## Welcome to the Drug-Gene Interaction Database project
+## Welcome to the Drug-Gene Interaction Database!
 
-### Introduction
+The [Drug–Gene Interaction Database (DGIdb)](https://dgidb.org) aggregates human genes, drugs, gene products, drugs and drug–gene interaction records to drive hypothesis generation and discovery for clinicians and researchers. Using a combination of expert curation and text-mining, interactions and drug categorizations are drawn from resources like DrugBank, PharmGKB, ChEMBL, the Gene Ontology, and the Human Protein Atlas. Presently, DGIdb contains over 10,000 genes and 20,000 drugs involved in nearly 70,000 drug-gene interactions.
 
-In the era of clinical sequencing and personalized medicine, investigators are frequently presented with lists of mutated or otherwise altered genes implicated in 
-disease for a specific patient or cohort. Numerous resources exist to help form hypotheses about how such genomic events might be targeted therapeutically. However, 
-utilizing these resources typically involves tedious manual review of literature, clinical trial records, and knowledgebases. Few currently exist which collect and 
-curate these resources and provide a simple interface for searching lists of genes against the existing compendia of known or potential drug-gene interactions. The 
-drug-gene interaction database (DGIdb) attempts to address this challenge. Using a combination of expert curation and text-mining, drug-gene interactions have been 
-mined from DrugBank, PharmGKB, ChEMBL, Drug Target Commons, and others. Genes have also been categorized as potentially druggable according to membership in selected 
-pathways, molecular functions and gene families from the Gene Ontology, the Human Protein Atlas, IDG, "druggable genome" lists from Hopkins and Groom (2002) and Russ 
-and Lampel (2005), and others. Drug and gene grouping is provided by the VICC Gene and Therapy Normalizer services. DGIdb contains over 10,000 genes and 20,000 drugs 
-involved in nearly 70,000 drug-gene interactions or belonging to one of 43 potentially druggable gene categories. Users can enter a list of genes to retrieve all known 
-or potentially druggable genes in that list. Results can be filtered by source, interaction type, or gene category. DGIdb is built on Ruby on Rails and PostgreSQL with 
-a flexible relational database schema to accommodate metadata from various sources.
+* Need help? [Make a new issue](https://github.com/dgidb/dgidb-v5/issues/new?template=Blank+issue) in the DGIdb v5 repo.
+* Want programmatic access to DGIdb? See [DGIpy](https://github.com/GenomicMedLab/dgipy/) and [R-DGIdb](https://github.com/GenomicMedLab/r-dgidb).
 
-<!--
+For more information, please see our most recent publication:
 
-**Here are some ideas to get you started:**
+> Matthew Cannon, James Stevenson, Kathryn Stahl, Rohit Basu, Adam Coffman, Susanna Kiwala, Joshua F McMichael, Kori Kuzma, Dorian Morrissey, Kelsy Cotto, Elaine R Mardis, Obi L Griffith, Malachi Griffith, Alex H Wagner, **DGIdb 5.0: rebuilding the drug–gene interaction database for precision medicine and drug discovery platforms**, *Nucleic Acids Research*, Volume 52, Issue D1, 5 January 2024, Pages D1227–D1235, [https://doi.org/10.1093/nar/gkad1040](https://doi.org/10.1093/nar/gkad1040)
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
