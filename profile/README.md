@@ -4,7 +4,7 @@ The [Drug–Gene Interaction Database (DGIdb)](https://dgidb.org) aggregates hum
 
 * Need help? Check the [DGIdb documentation](https://dgidb.org/about).
 * Couldn't find an answer to your question? [Make a new issue](https://github.com/dgidb/dgidb-v5/issues/new?template=Blank+issue) in the DGIdb v5 repo.
-* Want programmatic access to DGIdb? Try [`DGIpy`](https://github.com/GenomicMedLab/dgipy/) and [`R-DGIdb`](https://github.com/GenomicMedLab/r-dgidb).  # update with final URLs when moved over
+* Want programmatic access to DGIdb? Try [`DGIpy`](https://github.com/dgidb/dgipy/) and [`R-DGIdb`](https://github.com/dgidb/r-dgidb).
 
 ---
 
